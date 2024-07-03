@@ -1,0 +1,182 @@
+﻿<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Enroll Student Form</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Enroll Student Form</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<section class="content">
+    <!-- Enroll Student Form Start -->
+    <div class="enrollStudent">
+        <div class="enrollStudent-form">
+            <div class="row">
+                <h5>Enroll Student</h5><hr>
+                <form action="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id=""><i class="bi bi-person"></i></span>
+                                <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id=""><i class="bi bi-person"></i></span>
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id=""><i class="bi bi-envelope-open"></i></span>
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id=""><i class="bi bi-calendar2-week"></i></span>
+                                <input type="date" class="form-control" placeholder="dd/mm/yyyy">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id=""><i class="bi bi-telephone"></i></span>
+                                <input type="number" class="form-control" placeholder="Enter mobile no">
+                            </div>
+                            <div class="input-group mb-3">
+                                <label for="gender" style="padding-right: 65px; font-weight: bold;">Gender</label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="male">
+                                    <label class="form-check-label" for="inlineRadio1">Male</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="female">
+                                    <label class="form-check-label" for="inlineRadio2">Female</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="other">
+                                    <label class="form-check-label" for="inlineRadio3">Other</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" for="country">Country</label>
+                                <select class="form-select" id="country">
+                                    <option selected>Choose...</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" for="state">State</label>
+                                <select class="form-select" id="state">
+                                    <option selected>Choose...</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" for="city">City</label>
+                                <select class="form-select" id="city">
+                                    <option selected>Choose...</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="">Street</span>
+                                <input type="text" class="form-control" placeholder="Enter street">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="">Zip</span>
+                                <input type="number" class="form-control" placeholder="Enter zip code">
+                            </div>
+                            <div class="input-group mb-3">
+                                <label for="education" style="padding-right: 65px; font-weight: bold;">Education</label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="ssc">
+                                    <label class="form-check-label" for="inlineCheckbox1">SSC</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="hsc">
+                                    <label class="form-check-label" for="inlineCheckbox2">HSC</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="bachelor">
+                                    <label class="form-check-label" for="inlineCheckbox3">Bachelor</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="masters">
+                                    <label class="form-check-label" for="inlineCheckbox4">Masters</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <label class="form-label mt-3" for="profilePhoto">Profile Photo</label>
+                            <div class="input-group mb-3">
+                                <input type="file" class="form-control inpFile" id="inpFile">
+                            </div>
+                        </div>
+                        <div class="col-md-5 mt-3">
+                            <div class="imgPreview-area" id="imgPreview">
+                                <img src="" alt="Image Preview" class="preview-iamge">
+                                <span class="imgPreview-defaultText">Preview Image</span>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <button type="submit">Enroll Student</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Enroll Student Form End -->
+    <!-- Enroll Student Table Start -->
+    <div class="enrollStudent-table">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header"><b>Enroll Student</b></div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="example" class="table table-striped data-table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Sagar Mahbub</td>
+                                        <td>md.karim@hotmail.com</td>
+                                        <td>01789.....</td>
+                                        <td style="text-align:center;"><a href=""><i class="bi bi-pencil-fill"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Md Lipon Ahmed</td>
+                                        <td>admin@admin.com</td>
+                                        <td>0178......</td>
+                                        <td style="text-align: center;"><a href=""><i class="bi bi-pencil-fill"></i></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Enroll Student Table End -->
+</section>

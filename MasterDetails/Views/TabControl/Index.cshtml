@@ -1,0 +1,191 @@
+﻿<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Employee Register Form</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Employee Register Form</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<!-- Employee Registration Form & Info Table Start -->
+<div class="employee-register">
+    <div class="row">
+        <h4>Employee Register</h4>
+        <div class="col-md-12 col-sm-12">
+            <div class="card card-primary card-outline card-outline-tabs">
+                <div class="card-header p-0 border-bottom-0">
+                    <ul class="nav nav-tabs" id="custom-tabs-four-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="custom-tabs-four-home-tab" data-toggle="pill" href="#custom-tabs-four-home" role="tab" aria-controls="custom-tabs-four-home" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="custom-tabs-four-profile-tab" data-toggle="pill" href="#custom-tabs-four-profile" role="tab" aria-controls="custom-tabs-four-profile" aria-selected="false">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content" id="custom-tabs-four-tabContent">
+                        <div class="tab-pane fade show active" id="custom-tabs-four-home" role="tabpanel" aria-labelledby="custom-tabs-four-home-tab">
+                            <div class="table-responsive">
+                                <table id="example" class="table table-striped data-table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Position</th>
+                                            <th>Office</th>
+                                            <th>Salary</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Rabby Ahmed</td>
+                                            <td>IT Manager</td>
+                                            <td>Dhanmondi</td>
+                                            <td>8000</td>
+                                            <td>
+                                                <div class="text-center actionBtn">
+                                                    <button id="edit">
+                                                        <i class="bi bi-pencil-fill"></i>
+                                                    </button>
+                                                    <button id="delete">
+                                                        <i class="bi bi-trash-fill"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shahin Ahemed</td>
+                                            <td>Accountant</td>
+                                            <td>Mirpur</td>
+                                            <td>6000</td>
+                                            <td>
+                                                <div class="text-center actionBtn">
+                                                    <button id="edit">
+                                                        <i class="bi bi-pencil-fill"></i>
+                                                    </button>
+                                                    <button id="delete">
+                                                        <i class="bi bi-trash-fill"></i>
+                                                    </button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="custom-tabs-four-profile" role="tabpanel" aria-labelledby="custom-tabs-four-profile-tab">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3 row">
+                                            <label for="name" class="col-sm-3 col-form-label">Name</label>
+                                            <div class="col-sm-9">
+                                                <input type="text" class="form-control" id="name">
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 row">
+                                            <label for="position" class="col-sm-3 col-form-label">Position</label>
+                                            <div class="col-sm-9">
+                                                <input type="text" class="form-control" id="position">
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 row">
+                                            <label for="office" class="col-sm-3 col-form-label">Office</label>
+                                            <div class="col-sm-9">
+                                                <input type="text" class="form-control" id="office">
+                                            </div>
+                                        </div>
+                                        <div class="mb-3 row">
+                                            <label for="salary" class="col-sm-3 col-form-label">Salary</label>
+                                            <div class="col-sm-9">
+                                                <input type="number" class="form-control" id="salary">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <label for="formFile" class="form-label">Image</label>
+                                                    <div class="imgPreview-area" id="imgPreview">
+                                                        <img src="" alt="Image Preview" class="preview-iamge">
+                                                        <span class="imgPreview-defaultText">Image Preview</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <input class="form-control inpFile" type="file" id="inpFile">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3 row">
+                                            <label class="col-sm-2 col-form-label"></label>
+                                            <div class="col-sm-10">
+                                                <input type="submit" class="form-control" id="submitBtn" value="Submit">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /.card -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Employee Registration Form & Info Table End -->
+
+@section Scripts{
+    <script src="~/adminlte/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+    <script>
+        $(function () {
+            /*Image Preview Start*/
+            const inpFile = document.getElementById("inpFile");
+            const preview_Container = document.getElementById("imgPreview");
+            const previewImage = preview_Container.querySelector(".preview-iamge");
+            const preview_DefaultText = preview_Container.querySelector(".imgPreview-defaultText");
+
+            inpFile.addEventListener("change", function () {
+                const imgFile = this.files[0];
+
+                if (imgFile) {
+                    const reader = new FileReader();
+                    preview_DefaultText.style.display = "none";
+                    previewImage.style.display = "block";
+                    reader.addEventListener("load", function () {
+                        console.log(this);
+                        previewImage.setAttribute("src", this.result);
+                    });
+                    reader.readAsDataURL(imgFile);
+                }
+                else {
+                    preview_DefaultText.style.display = null;
+                    previewImage.style.display = null;
+                }
+            });
+            /*Image Preview End*/
+
+            /*Bootstrap Datatable*/
+            $('#example').DataTable();
+
+            bsCustomFileInput.init();
+        });
+    </script>
+}

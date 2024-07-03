@@ -1,0 +1,812 @@
+html, body{
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*
+	Enroll Student Form Start
+=====================================*/
+.enrollStudent{
+	width: 100%;
+	background-color: transparent;
+	padding: 0px 20px;
+}
+.enrollStudent .enrollStudent-form{
+	background-color: white;
+	width: 100%;
+	padding: 30px;
+	margin: auto;
+}
+.enrollStudent .enrollStudent-form hr{
+	width: 98%;
+}
+.enrollStudent .enrollStudent-form form{
+	margin-top: 10px;
+}
+.enrollStudent .enrollStudent-form .imgPreview-area{
+	height: 200px;
+	width: 100%;
+	float: right;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CFCFCF;
+	position: relative;
+}
+.enrollStudent .enrollStudent-form .imgPreview-area span{
+	color: #8E8E8E;
+	font-weight: 600;
+}
+.enrollStudent .enrollStudent-form .imgPreview-area .preview-iamge{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: none;
+}
+.enrollStudent .enrollStudent-form button{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	background-color: #47BB5F;
+	border-style: none;
+	padding: 5px;
+	color: white;
+	border-radius: 5px;
+}
+.enrollStudent .enrollStudent-form button:hover{
+	background-color: #34B850;
+}
+.enrollStudent-table{
+	width: 100%;
+	background-color: transparent;
+	padding: 20px 20px;
+	margin-top: 30px;
+}
+/*
+	Enroll Student Form End
+=====================================*/
+
+
+
+/*
+	Enroll Student Table Export Start
+=====================================*/
+.dt-buttons .buttons-copy{
+	border-color: #6610f2;
+	background-color: #6610f2;
+	color: white;
+}
+.dt-buttons .buttons-copy::after{
+	content: "\F3C2";
+	font-family: "Bootstrap-icons";
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.dt-buttons .buttons-copy:hover{
+	border-color: #6610f2!important;
+	background-color: white!important;
+	color: #6610f2;
+}
+.dt-buttons .buttons-csv{
+	border-color: #dc3545;
+	background-color: #dc3545;
+	color: white;
+}
+.dt-buttons .buttons-csv::after{
+	content: "\F743";
+	font-family: "Bootstrap-icons";
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.dt-buttons .buttons-csv:hover{
+	border-color: #dc3545!important;
+	background-color: white!important;
+	color: #dc3545;
+}
+.dt-buttons .buttons-excel{
+	border-color: #fd7e14;
+	background-color: #fd7e14;
+	color: white;
+}
+.dt-buttons .buttons-excel::after{
+	content: "\F368";
+	font-family: "Bootstrap-icons";
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.dt-buttons .buttons-excel:hover{
+	border-color: #fd7e14!important;
+	background-color: white!important;
+	color: #fd7e14;
+}
+.dt-buttons .buttons-pdf{
+	border-color: #198754;
+	background-color: #198754;
+	color: white;
+}
+.dt-buttons .buttons-pdf::after{
+	content: "\F63E";
+	font-family: "Bootstrap-icons";
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.dt-buttons .buttons-pdf:hover{
+	border-color: #198754!important;
+	background-color: white!important;
+	color: #198754;
+}
+.dt-buttons .buttons-print{
+	border-color: #0dcaf0;
+	background-color: #0dcaf0;
+	color: white;
+}
+.dt-buttons .buttons-print::after{
+	content: "\F501";
+	font-family: "Bootstrap-icons";
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.dt-buttons .buttons-print:hover{
+	border-color: #0dcaf0!important;
+	background-color: white!important;
+	color: #0dcaf0;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+	background-color: transparent!important;
+}
+/*
+	Enroll Student Table Export End
+=====================================*/
+
+
+
+/*
+Student Table (Cascading, Range Search) Start
+=====================================*/
+.student-table{
+	width: 100%;
+	background-color: transparent;
+	padding: 0px 20px;
+}
+.student-table table #edit{
+	border: none;
+	background-color: #008CBA;
+	padding: 3px 6px;
+	margin-right: 10px;
+	border-radius: 4px;
+	font-size: 12px;
+	color: white;
+}
+.student-table table #edit:hover{
+	opacity: .7;
+	transition: .6s;
+}
+.student-table table #delete{
+	border: none;
+	background-color: #f44336;
+	padding: 3px 6px;
+	border-radius: 4px;
+	font-size: 12px;
+	color: white;
+}
+.student-table table #delete:hover{
+	opacity: .7;
+	transition: .6s;
+}
+/*
+Student Table (Cascading, Range Search) End
+=====================================*/
+
+
+/*
+Multiple Search Start
+=====================================*/
+.multiple-search{
+	width: 100%;
+	background-color: #F2F1FA;
+	padding: 0px 10px;
+}
+.multiple-search table #edit{
+	border: none;
+	background-color: #008CBA;
+	padding: 4px 8px;
+	border-radius: 0px;
+	font-size: 12px;
+	color: white;
+}
+.multiple-search table #edit:hover{
+	opacity: .7;
+	transition: .6s;
+}
+.multiple-search table #delete{
+	border: none;
+	background-color: #f44336;
+	padding: 4px 8px;
+	border-radius: 0px;
+	font-size: 12px;
+	color: white;
+}
+.multiple-search table #delete:hover{
+	opacity: .7;
+	transition: .6s;
+}
+/*
+Multiple Search End
+=====================================*/
+
+
+
+/*
+	Login Form Start
+=====================================*/
+.login{
+	width: 100%;
+	padding: 20px 20px;	
+}
+.login .login-form .img{
+	float: right;
+}
+.login .login-form{
+	width: 100%;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: white;
+}
+.login .login-form h1{
+	margin-top: 25px;
+	font-weight: bold;
+}
+.login .login-form .login-form-section{
+	margin-top: 25px;
+}
+.login .login-form .login-form-section .userName{
+	border-bottom: 1px solid;
+	width: 75%;
+	margin-bottom: 20px;
+}
+.login .login-form .login-form-section .userName input{
+	width: 90%;
+	border: none;
+	padding: 10px;
+}
+.login .login-form .login-form-section .userName input:focus{
+	outline: none;
+}
+.login .login-form .login-form-section .password{
+	border-bottom: 1px solid;
+	width: 75%;
+	margin-bottom: 25px;
+}
+
+.login .login-form .login-form-section .password input{
+	width: 90%;
+	border: none;
+	padding: 10px;
+}
+.login .login-form .login-form-section .password input:focus{
+	outline: none;
+}
+.login .login-form .login-form-section .loginBtn #btnSubmit{
+	margin-top: 30px;
+	padding: 12px 30px 12px 30px;
+	border: none;
+	margin-bottom: 20px;
+}
+.login .login-form .create-account{
+	float: right;
+	padding-right: 40px;
+	margin-bottom: 15px;
+}
+
+.login .login-form .loginWith-icon span{
+	padding-right: 10px;
+}
+.login .login-form .loginWith-icon span .facebook{
+	background-color: #044C80;
+	padding: 7px 10px 7px 10px;
+	border-radius: 4px;
+	color: white;
+}
+.login .login-form .loginWith-icon span .twitter{
+	background-color: #13B2C5;
+	padding: 7px 10px 7px 10px;
+	border-radius: 4px;
+	color: white;
+}
+.login .login-form .loginWith-icon span .google{
+	background-color: #C9142F;
+	padding: 7px 10px 7px 10px;
+	border-radius: 4px;
+	color: white;
+}
+/*
+	Login Form End
+=====================================*/
+
+
+
+/*
+	Medicine Entry Form Start
+=====================================*/
+.medicineEnroll{
+	width: 100%;
+	padding: 0px 25px;
+	margin-top: 0px;
+}
+.medicineEnroll table #addBtn{
+	border: none;
+	background-color: transparent;
+	color: #008CBA;
+	font-size: 28px;
+	font-weight: bold;
+}
+.medicineEnroll table .actionBtn #edit{
+	border: none;
+	background-color: #008CBA;
+	padding: 3px 6px;
+	border-radius: 4px;
+	font-size: 12px;
+	color: white;
+}
+.medicineEnroll table .actionBtn #edit:hover{
+	opacity: .8;
+	transition: .6s;
+}
+.medicineEnroll table .actionBtn #delete{
+	border: none;
+	background-color: #f44336;
+	padding: 3px 6px;
+	border-radius: 4px;
+	font-size: 12px;
+	color: white;
+}
+.medicineEnroll table .actionBtn #delete:hover{
+	opacity: .8;
+	transition: .6s;
+}
+/*
+	Medicine Entry Form End
+=====================================*/
+
+
+
+/*
+	Employee Register Start
+=====================================*/
+.employee-register{
+	width: 100%;
+	padding: 20px 20px;
+}
+.employee-register h4{
+	background-color: black;
+	color: white;
+	padding: 5px 15px;
+}
+.employee-register .nav-tabs .nav-item{
+	background-color: #F8F8F8;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+	color: #616161;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: black;
+	background-color: #fff!important;
+	border-color: #dee2e6!important;
+	border-top-color: #05A92D!important;
+	border-top-width: 2px;
+}
+.employee-register table .actionBtn #edit{
+	border: none;
+	background-color: #008CBA;
+	padding: 3px 6px;
+	border-radius: 4px;
+	font-size: 12px;
+	color: white;
+}
+.employee-register table .actionBtn #edit:hover{
+	opacity: .8;
+	transition: .6s;
+}
+.employee-register table .actionBtn #delete{
+	border: none;
+	background-color: #f44336;
+	padding: 3px 6px;
+	border-radius: 4px;
+	font-size: 12px;
+	color: white;
+}
+.employee-register table .actionBtn #delete:hover{
+	opacity: .8;
+	transition: .6s;
+}
+.employee-register #custom-tabs-four-profile form{
+	padding: 30px 20px;
+}
+.employee-register #custom-tabs-four-profile form label{
+	font-weight: bold;
+}
+.employee-register #custom-tabs-four-profile .imgPreview-area{
+	width: 60%;
+	height: 120px;
+	margin: auto;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #CFCFCF;
+	position: relative;
+}
+.employee-register #custom-tabs-four-profile  span{
+	color: #8E8E8E;
+	font-weight: 600;
+}
+.employee-register #custom-tabs-four-profile  .preview-iamge{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: none;
+}
+.employee-register #custom-tabs-four-profile form #submitBtn{
+	width: 30%;
+	border-color: #008CBA;
+	background-color: #008CBA;
+	color: white;
+}
+.employee-register #custom-tabs-four-profile form #submitBtn:hover{
+	background-color: #01698B;
+	transition: .6s ease;
+}
+/*
+	Employee Register End
+=====================================*/
+
+
+
+
+/*
+	Purchase Form Start
+=====================================*/
+.purchase-form{
+	width: 100%;
+	padding: 20px 20px;
+	background-color: #F5F5F5;
+}
+.purchase-form a{
+	text-decoration: none;
+	color: #0d6efd;
+	font-size: 18px;
+	font-weight: 600;
+	margin-left: 300px;
+}
+.purchase-form a i{
+	color: black!important;
+}
+.purchase-form a:hover{
+	text-decoration: underline;
+}
+.purchase-form form #add{
+	margin-top: 28px;
+	border-radius: 50%;
+}
+.purchase-form form #add i{
+	font-size: 20px;
+	color: white;
+}
+.purchase-form form table{
+	width: 100%;
+}
+.purchase-form form table #edit{
+	border: none;
+	background-color: #008CBA;
+	padding: 3px 6px;
+	border-radius: 4px;
+	font-size: 12px;
+	color: white;
+}
+.purchase-form form table #edit:hover{
+	opacity: .7;
+	transition: .6s;
+}
+.purchase-form form table #delete{
+	border: none;
+	background-color: #f44336;
+	padding: 3px 6px;
+	border-radius: 4px;
+	font-size: 12px;
+	color: white;
+}
+.purchase-form form table #delete:hover{
+	opacity: .7;
+	transition: .6s;
+}
+.purchase-form form #submitBtn{
+	float: right;
+	padding: 5px 14px;
+	border-style: solid;
+	border-color: #0d6efd;
+	background-color: #0d6efd;
+	border-radius: 5px;
+	color: white;
+}
+.purchase-form form #submitBtn:hover{
+	background-color: #0745A1;
+	border-color: #0745A1;
+	transition: .6s;
+}
+/*
+	Purchase Form End
+=====================================*/
+
+
+
+/*
+	Email Form Start
+=====================================*/
+.emal-form{
+	width: 100%;
+	overflow-x: hidden;
+}
+.emal-form h3{
+	margin-left: 15px;
+	font-weight: 500;
+}
+.emal-form form{
+	width: 95%;
+	padding: 20px 20px;
+	margin: auto;
+	background-color: white;
+	margin: auto;
+}
+.emal-form form label{
+
+	font-weight: 600;
+}
+.emal-form form span{
+	font-size: 16px;
+	color: #5E5E5E;
+	font-weight: 500;
+}
+/*
+	Email Form End
+=====================================*/
+
+
+
+
+/*
+	Registration Form Start
+=====================================*/
+.registration-form{
+	width: 100%;
+	padding: 20px 20px;
+	overflow-x: hidden;
+}
+.registration-form h3{
+	margin-left:40px;
+	font-weight: 600;
+}
+.registration-form form{
+	width: 90%;
+	background-color: white;
+	padding: 40px 40px;
+	margin: auto;
+}
+.registration-form form button{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+/*
+	Registration Form End
+=====================================*/
+
+
+
+/*
+	Multistep Form Start
+=====================================*/
+.multistep-form{
+	width: 100%;
+	padding: 20px 20px;
+}
+.multistep-form .form-area{
+	width: 100%;
+}
+.multistep-form .form-area .step-btn{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.multistep-form .form-area .step-btn  li{
+	display: inline-block;
+	width: 200px;
+}
+.multistep-form .form-area .step-btn  li.active .round-btn{
+	background-color: #FC1B7B;
+	color: white;
+}
+.multistep-form .form-area .step-btn .round-btn{
+	position: relative;
+	width: 32px;
+	height: 32px;
+	display: block;
+	margin: auto;
+	margin-left: -0px;
+	margin-left: 65px;
+	border-radius: 50%;
+	background-color: #CFCFCF;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	line-height: 30px;
+}
+.multistep-form .form-area .step-btn  li:not(:first-child) .round-btn:before{
+	position: absolute;
+	content: "";
+	width: 180px;
+	height: 3px;
+	background-color: #CFCFCF;
+	top: 50%;
+	left: -81px;
+	transform: translate(-50%);
+}
+.multistep-form .form-area .step-btn  li.active:not(:first-child) .round-btn:before{
+	background-color: #FC1B7B;
+}
+.multistep-form .form-area{
+	width: 100%;
+	margin: auto;
+	background-color: white;
+	padding: 30px 30px 10px 30px;
+	border-style: solid;
+	border-color: #F0F0F0;
+	border-width: 1px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.multistep-form .form-area .heading{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.multistep-form .form-area .heading h3{
+	font-weight: 600;
+}
+.multistep-form .form-area:nth-child(2),
+.multistep-form .form-area:nth-child(3){
+	display: none;
+}
+.multistep-form .form-area form label{
+	font-weight: 600;
+}
+.multistep-form .form-area form .btn-row{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.multistep-form .form-area form .btn-row .next,
+.multistep-form .form-area form .btn-row .previous,
+.multistep-form .form-area form .btn-row .submit{
+	border: none;
+	padding: 6px 28px;
+	border-radius: 20px;
+	color: white;
+	font-weight: 600;
+	background-color: #FC1B7B;
+}
+.multistep-form .form-area form .btn-row .next:hover{
+	opacity: .8;
+	transition: .6s;
+}
+.multistep-form .form-area form .btn-row .previous:hover{
+	opacity: .8;
+	transition: .6s;
+}
+.multistep-form .form-area form .btn-row .submit:hover{
+	opacity: .8;
+	transition: .6s;
+}
+.multistep-form .form-area form .btn-row .submit{
+	background-color: darkblue;
+}
+
+/*
+	Multistep Form End
+=====================================*/
+
+
+
+/*
+	Multiple Image Upload Form Start
+=====================================*/
+.multipleImg-upload-form{
+	width: 100%;
+	padding: 20px 20px;
+}
+.multipleImg-upload-form form{
+	padding: 0 30px;
+}
+.multipleImg-upload-form .card{
+	overflow: hidden;
+	background-color: #F7F7F7;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.multipleImg-upload-form .card .img{
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 30px;
+}
+.multipleImg-upload-form .card .img img{
+	width: 100%;
+	height: 300px;
+}
+.multipleImg-upload-form .card .card-body{
+	padding: 0px!important;
+}
+.multipleImg-upload-form .card .card-body .thumnailBtn-area{
+	width: 100%;
+	padding: 20px 20px;
+	border-top: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	background-color: white;
+}
+.multipleImg-upload-form .card .card-body .thumnailBtn-area label{
+	font-weight: 600;
+	color: #5D5D5D;
+	font-size: 15px;
+}
+.multipleImg-upload-form .card .card-body .deleteBtn{
+	padding: 20px 20px;
+}
+.multipleImg-upload-form .card .card-body .deleteBtn button i{
+	font-weight: bold;
+	font-size: 18px;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.multipleImg-upload-form form .btn-area{
+	display: flex;
+}
+.multipleImg-upload-form form .btn-area button{
+	padding: 8px 18px;
+	border: none;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 15px;
+	margin-right: 10px;
+}
+.multipleImg-upload-form form .btn-area button i{
+	padding-right: 5px;
+}
+.multipleImg-upload-form form .btn-area #save{
+	background-color: #47B978;
+	color: white;
+}
+.multipleImg-upload-form form .btn-area #save:hover{
+	background-color: #2B8953;
+	transition: .6s;
+}
+.multipleImg-upload-form form .btn-area #cancel{
+	background-color: #8D8D8D;
+	color: white;
+}
+.multipleImg-upload-form form .btn-area #cancel:hover{
+	background-color: #5D5D5D;
+	transition: .6s;
+}
+/*
+	Multiple Image Upload Form End
+=====================================*/

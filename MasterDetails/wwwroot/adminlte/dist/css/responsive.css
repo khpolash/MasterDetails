@@ -1,0 +1,527 @@
+@media only screen and (max-width: 768px) {
+	#example_filter label{
+		margin-top: 10px;
+	}
+	/*
+	Enroll Student Form Start
+	=====================================*/
+	.enrollStudent{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.enrollStudent .enrollStudent-form{
+		width: 100%;
+		margin: auto;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	.enrollStudent-table{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	/*
+	Enroll Student Form End
+	=====================================*/
+
+
+	/*
+	Student Table (Cascading, Range Search) Start
+	=====================================*/
+	.student-table{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	/*
+	Student Table (Cascading, Range Search) End
+	=====================================*/
+
+
+	/*
+	Multiple Search Start
+	=====================================*/
+	.multiple-search{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.multiple-search form input{
+		margin-bottom: 0px!important;
+	}
+	/*
+	Multiple Search Start
+	=====================================*/
+
+
+	/*
+		Login Form Start
+	=====================================*/
+	.login .login-form .img{
+		width: 100%;
+		text-align: center;
+	}
+	.login .login-form .img img{
+		height: 200px;
+		width: 150px;
+		margin: auto;
+	}
+	.login .login-form .login-form-section .userName{
+		width: 95%;
+		margin: auto;
+		margin-bottom: 25px;
+	}
+	.login .login-form .login-form-section .userName input{
+		width: 80%;
+	}
+	.login .login-form .login-form-section .password{
+		width: 95%;
+		margin: auto;
+		margin-bottom: 25px;
+	}
+	.login .login-form .login-form-section .password input{
+		width: 80%;
+	}
+	.login .login-form .create-account{
+		float: left;
+		margin-bottom: 20px;
+	}
+	/*
+		Login Form End
+	=====================================*/
+
+
+	/*
+	Medicine Entry Form Start
+	=====================================*/
+	.medicineEnroll{
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	/*
+	Medicine Entry Form End
+	=====================================*/
+
+
+	/*
+	Employee Register Start
+	=====================================*/
+	.employee-register{
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	.employee-register #nav-profile form{
+		padding: 20px 0px;
+	}
+	.employee-register #nav-profile form input{
+		margin-bottom: 0px!important;
+	}
+	/*
+	Employee Register End
+	=====================================*/
+
+
+	/*
+	Purchase Form Start
+	=====================================*/
+	.purchase-form{
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	.purchase-form a{
+		margin-left: 0px;
+	}
+	.purchase-form input{
+		margin-bottom: 0px;
+	}
+	.purchase-form form #add{
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+	/*
+	Purchase Form End
+	=====================================*/
+
+
+	/*
+	Email Form Start
+	=====================================*/
+	.emal-form{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.emal-form h3{
+		margin-left: 0px;
+	}
+	.emal-form form{
+		width: 100%;
+		margin: auto;
+	}
+	/*
+	Email Form End
+	=====================================*/
+
+
+	/*
+	Registration Form Start
+	=====================================*/
+	.registration-form{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.registration-form h3{
+		margin-left: 0px;
+	}
+	.registration-form form{
+		width: 100%;
+		margin: auto;
+	}
+	.registration-form form .row{
+		margin-bottom: 5px!important;
+	}
+	/*
+	Registration Form End
+	=====================================*/
+
+
+	/*
+	Multistep Form Start
+	=====================================*/
+	.multistep-form{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.multistep-form .form-area{
+		width: 98%;
+		margin: auto;
+		margin-top: 0px;
+		margin-left: 0px;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+		box-shadow: none;
+	}
+	.multistep-form .form-area .step-btn{
+		margin: 0px!important;
+	}
+	.multistep-form .form-area .step-btn  li{
+		display: inline-block;
+		width: 30%;
+	}
+	.multistep-form .form-area .step-btn .round-btn{
+		width: 30px;
+		height: 30px;
+		margin-left: -0px;
+		margin-left: 5px;
+		line-height: 27px;
+	}
+	.multistep-form .form-area .step-btn  li:not(:first-child) .round-btn:before{
+		width: 80px;
+		left: -15px;
+	}
+	/*
+	Multistep Form End
+	=====================================*/
+	
+
+	/*
+	Multiple Image Upload Form Start
+	=====================================*/
+	.multipleImg-upload-form{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.multipleImg-upload-form form{
+		width: 100%;
+		padding: 0px;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width: 440px) {
+	#example_filter label{
+		margin-top: 10px;
+	}
+	/*
+	Enroll Student Form Start
+	=====================================*/
+	.enrollStudent{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.enrollStudent .enrollStudent-form{
+		width: 100%;
+		margin: auto;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	.enrollStudent-table{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	/*
+	Enroll Student Form End
+	=====================================*/
+
+
+	/*
+	Student Table (Cascading, Range Search) Start
+	=====================================*/
+	.student-table{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	/*
+	Student Table (Cascading, Range Search) End
+	=====================================*/
+
+
+	/*
+	Multiple Search Start
+	=====================================*/
+	.multiple-search{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.multiple-search form input{
+		margin-bottom: 0px!important;
+	}
+	/*
+	Multiple Search Start
+	=====================================*/
+
+
+	/*
+		Login Form Start
+	=====================================*/
+	.login .login-form .img{
+		width: 100%;
+		text-align: center;
+	}
+	.login .login-form .img img{
+		height: 200px;
+		width: 150px;
+		margin: auto;
+	}
+	.login .login-form .login-form-section .userName{
+		width: 95%;
+		margin: auto;
+		margin-bottom: 25px;
+	}
+	.login .login-form .login-form-section .userName input{
+		width: 80%;
+	}
+	.login .login-form .login-form-section .password{
+		width: 95%;
+		margin: auto;
+		margin-bottom: 25px;
+	}
+	.login .login-form .login-form-section .password input{
+		width: 80%;
+	}
+	.login .login-form .create-account{
+		float: left;
+		margin-bottom: 20px;
+	}
+	/*
+		Login Form End
+	=====================================*/
+
+
+	/*
+	Medicine Entry Form Start
+	=====================================*/
+	.medicineEnroll{
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	/*
+	Medicine Entry Form End
+	=====================================*/
+
+
+	/*
+	Employee Register Start
+	=====================================*/
+	.employee-register{
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	.employee-register #nav-profile form input{
+		margin-bottom: 0px;
+	}
+	/*
+	Employee Register End
+	=====================================*/
+
+
+	/*
+	Purchase Form Start
+	=====================================*/
+	.purchase-form{
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	.purchase-form a{
+		margin-left: 0px;
+	}
+	.purchase-form input{
+		margin-bottom: 0px;
+	}
+	.purchase-form form #add{
+		margin-top: 0px;
+		margin-bottom: 10px;
+	}
+	/*
+	Purchase Form End
+	=====================================*/
+
+
+	/*
+	Email Form Start
+	=====================================*/
+	.emal-form{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.emal-form h3{
+		margin-left: 0px;
+	}
+	.emal-form form{
+		width: 100%;
+		margin: auto;
+	}
+	/*
+	Email Form End
+	=====================================*/
+
+
+	/*
+	Registration Form Start
+	=====================================*/
+	.registration-form{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.registration-form h3{
+		margin-left: 0px;
+	}
+	.registration-form form{
+		width: 100%;
+		margin: auto;
+	}
+	.registration-form form .row{
+		margin-bottom: 5px!important;
+	}
+	/*
+	Registration Form End
+	=====================================*/
+
+
+	/*
+	Multistep Form Start
+	=====================================*/
+	.multistep-form{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.multistep-form .form-area{
+		width: 98%;
+		margin: auto;
+		margin-top: 0px;
+		margin-left: 0px;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+		box-shadow: none;
+	}
+	.multistep-form .form-area .step-btn{
+		margin: 0px!important;
+	}
+	.multistep-form .form-area .step-btn  li{
+		display: inline-block;
+		width: 30%;
+	}
+	.multistep-form .form-area .step-btn .round-btn{
+		width: 30px;
+		height: 30px;
+		margin-left: -0px;
+		margin-left: 5px;
+		line-height: 27px;
+	}
+	.multistep-form .form-area .step-btn  li:not(:first-child) .round-btn:before{
+		width: 100px;
+		left: -25px;
+	}
+	/*
+	Multistep Form End
+	=====================================*/
+
+
+	/*
+	Multiple Image Upload Form Start
+	=====================================*/
+	.multipleImg-upload-form{
+		width: 100%;
+		padding-top: 10%;
+		padding-right: 5%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+	}
+	.multipleImg-upload-form form{
+		width: 100%;
+		padding: 0px;
+	}
+	/*
+	Multiple Image Upload Form End
+	=====================================*/
+
+
+}

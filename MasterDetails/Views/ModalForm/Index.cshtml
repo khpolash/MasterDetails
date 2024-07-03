@@ -1,0 +1,140 @@
+﻿<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Medicine Entry Form</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Medicine Entry Form</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<!-- Enroll Medicine Table Start -->
+<div class="medicineEnroll">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header"><b>Enroll Medicine</b></div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table id="example" class="table table-striped data-table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Medicine</th>
+                                    <th>Generic Name</th>
+                                    <th>Category</th>
+                                    <th class="text-center">
+                                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#medicineAdd" id="addBtn">
+                                            <i class="bi bi-plus"></i>
+                                        </button>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Napa+</td>
+                                    <td>Paracetamol</td>
+                                    <td>Tab</td>
+                                    <td>
+                                        <div class="text-center actionBtn">
+                                            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#medicineAdd" id="edit">
+                                                <i class="bi bi-pencil-fill"></i>
+                                            </button>
+                                            <button id="delete">
+                                                <i class="bi bi-trash-fill"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Generic Ultravate (Cream, ointment)-+</td>
+                                    <td>Halobetasol propionate 0.05%</td>
+                                    <td>ointment</td>
+                                    <td>
+                                        <div class="text-center actionBtn">
+                                            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#medicineAdd" id="edit">
+                                                <i class="bi bi-pencil-fill"></i>
+                                            </button>
+                                            <button id="delete">
+                                                <i class="bi bi-trash-fill"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Elidel Cream</td>
+                                    <td>Pimecrolimus 1%</td>
+                                    <td>ointment</td>
+                                    <td>
+                                        <div class="text-center actionBtn">
+                                            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#editModal" id="edit">
+                                                <i class="bi bi-pencil-fill"></i>
+                                            </button>
+                                            <button id="delete">
+                                                <i class="bi bi-trash-fill"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Enroll Medicine Table End -->
+<!-- Medicine Add Modal Start -->
+<div class="modal fade" id="medicineAdd">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Add New Medicine</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="mb-2">
+                        <label for="mName" class="col-form-label">Medicine Name</label>
+                        <input type="text" class="form-control" id="mName">
+                    </div>
+                    <div class="mb-2">
+                        <label for="gName" class="col-form-label">Generic Name</label>
+                        <input type="text" class="form-control" id="gName">
+                    </div>
+                    <div class="mb-2">
+                        <label for="cName" class="col-form-label">Generic Name</label>
+                        <input type="text" class="form-control" id="cName">
+                    </div>
+                    <div class="mb-2">
+                        <label for="mDate" class="col-form-label">Manufacture Date</label>
+                        <input type="date" class="form-control" id="mDate">
+                    </div>
+                    <div class="mb-2">
+                        <label for="exDate" class="col-form-label">Expire Date</label>
+                        <input type="date" class="form-control" id="exDate">
+                    </div>
+                    <div class="mb-2">
+                        <label for="cId" class="col-form-label">Category Id</label>
+                        <input type="number" class="form-control" id="cId">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Medicine Add Modal End -->

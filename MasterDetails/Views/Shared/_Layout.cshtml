@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MasterDetails</title>
+
+    <partial name="_Stylesheet" />
+
+    @await RenderSectionAsync("Styles", required: false)
+
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div id="pageLoad" style="display:none;">
+        <div class="wrapper">
+            <partial name="_NavbarMenu" />
+
+            <partial name="_SidebarMenu" />
+
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                @RenderBody()
+
+                <!-- /.content -->
+            </div>
+
+            <partial name="_Footer" />
+            <!-- Control Sidebar -->
+            <aside class="control-sidebar control-sidebar-dark">
+                <!-- Control sidebar content goes here -->
+            </aside>
+        </div>
+    </div>
+    <partial name="_Script" />
+
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

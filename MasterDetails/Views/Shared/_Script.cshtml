@@ -1,0 +1,35 @@
+﻿<script src="~/adminlte/plugins/jquery/jquery.js"></script>
+<script src="~/adminlte/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script>
+    $.widget.bridge('uibutton', $.ui.button)
+</script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/adminlte/plugins/summernote/summernote-bs4.min.js"></script>
+<script src="~/adminlte/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<script src="~/adminlte/plugins/datatables/jquery.datatables.js"></script>
+<script src="~/adminlte/plugins/datatables/jquery.datatables.min.js"></script>
+<script src="~/adminlte/plugins/datatables-bs5/js/datatables.bootstrap5.min.js"></script>
+<script src="~/adminlte/dist/js/adminlte.js"></script>
+<script src="~/adminlte/dist/js/main.js"></script>
+
+
+<script>
+    $('#pageLoad').fadeIn(2000);
+
+    $(function () {
+        var url = window.location;
+        //alert(url)
+        // for single sidebar menu
+        $('ul.nav-sidebar a').filter(function () {
+            return this.href == window.location;
+        }).addClass('active');
+
+        // for sidebar menu and treeview
+        $('ul.nav-treeview a').filter(function () {
+            return this.href == window.location;
+        }).parentsUntil(".nav-sidebar > .nav-treeview")
+            .css({ 'display': 'block' })
+            .addClass('menu-open').prev('a')
+            .addClass('active');
+    });
+</script>

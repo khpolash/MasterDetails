@@ -1,0 +1,146 @@
+﻿<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Range Search</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Range Search</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<!-- Enroll Student Table (Range Search) Start -->
+<div class="student-table">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header"><b>Enrolled Students</b></div>
+                <div class="card-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="starDate">
+                                                        <i class="bi bi-calendar3"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Start Date" aria-label="starDate" aria-describedby="starDate">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="endDate">
+                                                        <i class="bi bi-calendar3"></i>
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="End Date" aria-label="endDate" aria-describedby="endDate">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="ageFrom">
+                                                        From
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Age From" aria-label="ageFrom" aria-describedby="ageFrom">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="ageTo">
+                                                        To
+                                                    </span>
+                                                    <input type="text" class="form-control" placeholder="Age Upto" aria-label="ageTo" aria-describedby="ageTo">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="mb-3">
+                                                <div class="d-flex">
+                                                    <button class="btn btn-primary rounded-0" type="submit">
+                                                        <i class="bi bi-plus"></i>
+                                                        Enrole
+                                                    </button>
+                                                    <button class="btn btn-success rounded-0" type="submit">
+                                                        <i class="bi bi-arrow-clockwise"></i>
+                                                        Reload
+                                                    </button>
+                                                    <button class="btn btn-info text-white rounded-0" type="submit">
+                                                        <i class="bi bi-search"></i>
+                                                        Search
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="table-responsive">
+                        <table id="example" class="table table-striped data-table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th class="d-flex justify-content-end">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Sagar Mahbub</td>
+                                    <td>md.karim@hotmail.com</td>
+                                    <td>01789.....</td>
+                                    <td class="d-flex justify-content-end">
+                                        <div class="actionBtn">
+                                            <button id="edit">
+                                                <i class="bi bi-pencil-fill"></i>
+                                            </button>
+                                            <button id="delete">
+                                                <i class="bi bi-trash-fill"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Md Lipon Ahmed</td>
+                                    <td>admin@admin.com</td>
+                                    <td>0178......</td>
+                                    <td class="d-flex justify-content-end">
+                                        <div class="actionBtn">
+                                            <button id="edit">
+                                                <i class="bi bi-pencil-fill"></i>
+                                            </button>
+                                            <button id="delete">
+                                                <i class="bi bi-trash-fill"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Enroll Student Table (Range Search) End -->

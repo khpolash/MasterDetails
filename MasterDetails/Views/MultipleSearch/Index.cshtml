@@ -1,0 +1,256 @@
+﻿ <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1>Multiple Search Form</h1>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Multiple Search Form</li>
+            </ol>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+
+    <!-- Multiple Search Start -->
+    <div class="multiple-search">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <form action="">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="mb-4 d-flex justify-content-between">
+                        <div>
+                          <h3 class="text-uppercase">List</h3>
+                        </div>
+                        <div>
+                          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#addModal" id="edit">
+                            <i class="bi bi-plus"></i>
+                            Create New
+                          </button>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="mb-3 row">
+                          <label for="demandNo" class="col-sm-3 col-form-label">Demand No</label>
+                          <div class="col-sm-8">
+                            <input type="text" class="form-control" id="demandNo">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="mb-3 row">
+                          <label for="demandFrom" class="col-sm-3 col-form-label">From</label>
+                          <div class="col-sm-9">
+                            <div class="input-group">
+                              <input type="text" class="form-control" aria-label="demandFrom" aria-describedby="demandFrom">
+                              <span class="input-group-text" id="demandFrom">
+                                <i class="bi bi-calendar3"></i>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="mb-3 row">
+                          <label for="demandTo" class="col-sm-3 col-form-label">To</label>
+                          <div class="col-sm-9">
+                            <div class="input-group">
+                              <input type="text" class="form-control" aria-label="demandTo" aria-describedby="demandTo">
+                              <span class="input-group-text" id="demandTo">
+                                <i class="bi bi-calendar3"></i>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="mb-4 row">
+                          <label for="Vehicle" class="col-sm-3 col-form-label">Vehicle</label>
+                          <div class="col-sm-8">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Select Vehicle</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="mb-4 row">
+                          <label for="parts" class="col-sm-3 col-form-label">Spare Parts</label>
+                          <div class="col-sm-9">
+                            <select class="form-select" aria-label="Default select example">
+                              <option selected>Select Spare</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="mb-4 d-flex justify-content-end">
+                          <button class="btn btn-success">Search</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <div class="table-responsive">
+                <table id="example" class="table table-striped data-table table-bordered">
+                  <thead class="text-center">
+                    <tr>
+                      <th>Id</th>
+                      <th>Demand No</th>
+                      <th>Vehicle</th>
+                      <th>Spare Parts</th>
+                      <th>Quantity</th>
+                      <th>Unit Price</th>
+                      <th>Total Price</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>17</td>
+                      <td>66.77.99.00</td>
+                      <td>Ka-9834545</td>
+                      <td>235/80R-16</td>
+                      <td>1</td>
+                      <td>100</td>
+                      <td>100</td>
+                      <td class="d-flex justify-content-end">
+                        <div class="actionBtn">
+                          <button id="edit" title="Edit">
+                            <i class="bi bi-pencil-square"></i>
+                          </button>
+                          <button id="delete" title="Delete">
+                            <i class="bi bi-trash-fill"></i>
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>18</td>
+                      <td>44.02.6300.159.07.712.18</td>
+                      <td>Kha-9834545</td>
+                      <td>235/80R-16</td>
+                      <td>11</td>
+                      <td>1</td>
+                      <td>11</td>
+                      <td class="d-flex justify-content-end">
+                        <div class="actionBtn">
+                          <button id="edit" title="Edit">
+                            <i class="bi bi-pencil-square"></i>
+                          </button>
+                          <button id="delete" title="Delete">
+                            <i class="bi bi-trash-fill"></i>
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>19</td>
+                      <td>44.02.4450.140.07.003.19.56/1</td>
+                      <td>বান্দরবান-ঘ-১১-০০২৯</td>
+                      <td>205-R-16</td>
+                      <td>5</td>
+                      <td>1</td>
+                      <td>5</td>
+                      <td class="d-flex justify-content-end">
+                        <div class="actionBtn">
+                          <button id="edit" title="Edit">
+                            <i class="bi bi-pencil-square"></i>
+                          </button>
+                          <button id="delete" title="Delete">
+                            <i class="bi bi-trash-fill"></i>
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>1848</td>
+                      <td>ঢাকা মেট্রো -ঠ-১১-৯২৬৪</td>
+                      <td>Sleeve Cylinder kit</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td class="d-flex justify-content-end">
+                        <div class="actionBtn">
+                          <button id="edit" title="Edit">
+                            <i class="bi bi-pencil-square"></i>
+                          </button>
+                          <button id="delete" title="Delete">
+                            <i class="bi bi-trash-fill"></i>
+                          </button>
+                        </div>
+                      </td>
+                    </tr>     
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Multiple Search End -->
+
+    <!-- Create New Modal Start -->
+    <div class="modal fade" id="addModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Create New</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="mb-2">
+                <label for="demandNo" class="col-form-label">Demand No</label>
+                <input type="text" class="form-control" id="demandNo">
+              </div>
+              <div class="mb-2">
+                <label for="Vehicle" class="col-form-label">Vehicle</label>
+                <input type="text" class="form-control" id="Vehicle">
+              </div>
+              <div class="mb-2">
+                <label for="parts" class="col-form-label">Spare Parts</label>
+                <input type="text" class="form-control" id="parts">
+              </div>
+              <div class="mb-2">
+                <label for="quantity" class="col-form-label">Quantity</label>
+                <input type="text" class="form-control" id="quantity">
+              </div>
+              <div class="mb-2">
+                <label for="unitPrice" class="col-form-label">Unit Price</label>
+                <input type="text" class="form-control" id="unitPrice">
+              </div>
+               <div class="mb-2">
+                <label for="totalPrice" class="col-form-label">Total Price</label>
+                <input type="text" class="form-control" id="totalPrice">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Create New Modal End -->
